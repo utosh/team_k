@@ -28,6 +28,7 @@ body {font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;col
       .lead {margin-left:20px;font-size:20px;color:white;margin-top:10px;}
     }
     .stock-area {background-color:#363636;
+      &.fixed {position:fixed;top:0px;z-index: 1000;}
       img {width:320px;}
     }
     .scrollable-cards-area {background-color:#ddd;padding:5px;
