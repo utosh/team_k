@@ -91,13 +91,52 @@ body {
 }
 /* line 10, ../scss/index2.scss */
 body #team-k-index ._card-slide {
-  background-color: #ff5d61;
+  background-color: #efefef;
   height: 225px;
   position: relative;
   margin: 0px;
   background-size: contain;
+  padding: 10px;
 }
 /* line 11, ../scss/index2.scss */
+body #team-k-index ._card-slide .title {
+  background-color: #30B8B9;
+  width: 120px;
+  height: 25px;
+  margin: 10px auto;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+/* line 12, ../scss/index2.scss */
+body #team-k-index ._card-slide .head-message {
+  text-align: center;
+  font-size: 28px;
+  color: #666;
+}
+/* line 13, ../scss/index2.scss */
+body #team-k-index ._card-slide .range {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 14, ../scss/index2.scss */
+body #team-k-index ._card-slide .range .num {
+  font-family: 'Quicksand', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+  font-size: 58px;
+  font-weight: 300;
+}
+/* line 15, ../scss/index2.scss */
+body #team-k-index ._card-slide .range .arrow {
+  font-size: 32px;
+  color: #666;
+}
+/* line 16, ../scss/index2.scss */
+body #team-k-index ._card-slide .range span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 19, ../scss/index2.scss */
 body #team-k-index .simple-card {
   background-color: #ff5d61;
   height: 250px;
@@ -105,7 +144,7 @@ body #team-k-index .simple-card {
   margin: 0px;
   padding: 10px;
 }
-/* line 12, ../scss/index2.scss */
+/* line 20, ../scss/index2.scss */
 body #team-k-index .simple-card i.airplane {
   position: absolute;
   right: 50px;
@@ -116,42 +155,42 @@ body #team-k-index .simple-card i.airplane {
   top: 120px;
   color: #333;
 }
-/* line 13, ../scss/index2.scss */
+/* line 21, ../scss/index2.scss */
 body #team-k-index .simple-card i.airplane:before {
   font-size: 80px;
 }
-/* line 15, ../scss/index2.scss */
+/* line 23, ../scss/index2.scss */
 body #team-k-index .simple-card .air-logo {
   font-size: 60px;
   color: white;
   margin-top: 40px;
   font-weight: bold;
 }
-/* line 17, ../scss/index2.scss */
+/* line 25, ../scss/index2.scss */
 body #team-k-index .simple-card .air-logo i.rocket:before {
   font-size: 60px;
 }
-/* line 20, ../scss/index2.scss */
+/* line 28, ../scss/index2.scss */
 body #team-k-index .simple-card .lead {
   margin-left: 20px;
   font-size: 20px;
   color: white;
   margin-top: 10px;
 }
-/* line 22, ../scss/index2.scss */
+/* line 30, ../scss/index2.scss */
 body #team-k-index .stock-area {
   background-color: #363636;
 }
-/* line 23, ../scss/index2.scss */
+/* line 31, ../scss/index2.scss */
 body #team-k-index .stock-area img {
   width: 320px;
 }
-/* line 25, ../scss/index2.scss */
+/* line 33, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area {
   background-color: #ddd;
   padding: 5px;
 }
-/* line 26, ../scss/index2.scss */
+/* line 34, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card {
   height: 200px;
   background-color: white;
@@ -160,7 +199,7 @@ body #team-k-index .scrollable-cards-area .content-card {
   border-radius: 6px;
   margin-top: 20px;
 }
-/* line 27, ../scss/index2.scss */
+/* line 35, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-header {
   padding: 15px;
   height: 60px;
@@ -168,11 +207,11 @@ body #team-k-index .scrollable-cards-area .content-card .card-header {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 28, ../scss/index2.scss */
+/* line 36, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-header .year, body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
   vertical-align: middle;
 }
-/* line 29, ../scss/index2.scss */
+/* line 37, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-header .year {
   font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
   font-weight: bold;
@@ -180,53 +219,53 @@ body #team-k-index .scrollable-cards-area .content-card .card-header .year {
   float: left;
   width: 100px;
 }
-/* line 30, ../scss/index2.scss */
+/* line 38, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
   font-size: 28px;
   color: #30B8B9;
   margin-left: 110px;
   margin-top: 8px;
 }
-/* line 33, ../scss/index2.scss */
+/* line 41, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content {
   margin-top: 10px;
 }
-/* line 35, ../scss/index2.scss */
+/* line 43, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper {
   width: 50px;
   height: 40px;
   vertical-align: middle;
   float: left;
 }
-/* line 37, ../scss/index2.scss */
+/* line 45, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper i:before {
   font-size: 40px;
 }
-/* line 40, ../scss/index2.scss */
+/* line 48, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .company {
   height: 40px;
   vertical-align: middle;
   font-size: 28px;
   color: #666;
   float: left;
-  margin-left: 60px;
+  margin-left: 20px;
 }
-/* line 41, ../scss/index2.scss */
+/* line 49, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .price {
   display: inline-block;
   font-size: 28px;
   vertical-align: middle;
 }
-/* line 43, ../scss/index2.scss */
+/* line 51, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .column {
   height: 40px;
   margin-top: 15px;
 }
-/* line 46, ../scss/index2.scss */
+/* line 54, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .grow .icon-wrapper i {
   color: #7bb7e6;
 }
-/* line 51, ../scss/index2.scss */
+/* line 59, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .content-card .card-content .down .icon-wrapper i {
   color: #fe5c61;
   -moz-transform: matrix(1, 0, 0, -1, 0, 0);

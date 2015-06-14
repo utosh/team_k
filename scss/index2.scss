@@ -7,7 +7,15 @@
 
 body {font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;color:#333;
   #team-k-index {
-    ._card-slide {background-color: #ff5d61;height:225px;position:relative;margin:0px;background-size:contain;}
+    ._card-slide {background-color: #efefef;height:225px;position:relative;margin:0px;background-size:contain;padding:10px;
+      .title {background-color:#30B8B9;width:120px;height:25px;margin:10px auto;color:white;font-size:20px;padding:5px 10px;text-align:center;}
+      .head-message {text-align:center;font-size:28px;color:#666;}
+      .range {text-align:center;margin-top:40px;
+        .num {@include quicksand;font-size:58px;font-weight:300;}
+        .arrow {font-size:32px;color:#666;}
+        span {display:inline-block;vertical-align:middle;}
+      }
+    }
     .simple-card {background-color: #ff5d61;height:250px;position:relative;margin:0px;padding:10px;
       i.airplane {position:absolute;right:50px;@include transform(rotate(-40deg));top:120px;color:#333;
         &:before {font-size:80px;}
@@ -37,7 +45,7 @@ body {font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;col
                 &:before {font-size:40px;}
               }
             }
-            .company {height:40px; vertical-align: middle;font-size:28px;color:#666;float:left;margin-left:60px;}
+            .company {height:40px; vertical-align: middle;font-size:28px;color:#666;float:left;margin-left:20px;}
             .price {display:inline-block;font-size:28px;vertical-align:middle;}
           }
           .column {height:40px;margin-top:15px;}
