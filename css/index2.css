@@ -1,4 +1,4 @@
-/* line 5, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rbenv/versions/2.1.2/gemsets/labo/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -182,15 +182,21 @@ body #team-k-index .stock-area {
   background-color: #363636;
 }
 /* line 31, ../scss/index2.scss */
+body #team-k-index .stock-area.fixed {
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+/* line 32, ../scss/index2.scss */
 body #team-k-index .stock-area img {
   width: 320px;
 }
-/* line 33, ../scss/index2.scss */
+/* line 34, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area {
   background-color: #ddd;
   padding: 5px;
 }
-/* line 34, ../scss/index2.scss */
+/* line 35, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide {
   height: 200px;
   background-color: white;
@@ -199,7 +205,7 @@ body #team-k-index .scrollable-cards-area .card-slide {
   border-radius: 6px;
   margin-top: 20px;
 }
-/* line 35, ../scss/index2.scss */
+/* line 36, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-header {
   padding: 15px;
   height: 60px;
@@ -207,11 +213,11 @@ body #team-k-index .scrollable-cards-area .card-slide .card-header {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 36, ../scss/index2.scss */
+/* line 37, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-header .year, body #team-k-index .scrollable-cards-area .card-slide .card-header .event-desc {
   vertical-align: middle;
 }
-/* line 37, ../scss/index2.scss */
+/* line 38, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-header .year {
   font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
   font-weight: bold;
@@ -219,29 +225,29 @@ body #team-k-index .scrollable-cards-area .card-slide .card-header .year {
   float: left;
   width: 100px;
 }
-/* line 38, ../scss/index2.scss */
+/* line 39, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-header .event-desc {
   font-size: 28px;
   color: #30B8B9;
   margin-left: 110px;
   margin-top: 8px;
 }
-/* line 41, ../scss/index2.scss */
+/* line 42, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content {
   margin-top: 10px;
 }
-/* line 43, ../scss/index2.scss */
+/* line 44, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .icon-wrapper {
   width: 50px;
   height: 40px;
   vertical-align: middle;
   float: left;
 }
-/* line 45, ../scss/index2.scss */
+/* line 46, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .icon-wrapper i:before {
   font-size: 40px;
 }
-/* line 48, ../scss/index2.scss */
+/* line 49, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .company {
   height: 40px;
   vertical-align: middle;
@@ -250,22 +256,22 @@ body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .
   float: left;
   margin-left: 20px;
 }
-/* line 49, ../scss/index2.scss */
+/* line 50, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .price {
   display: inline-block;
   font-size: 28px;
   vertical-align: middle;
 }
-/* line 51, ../scss/index2.scss */
+/* line 52, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .column {
   height: 40px;
   margin-top: 15px;
 }
-/* line 54, ../scss/index2.scss */
+/* line 55, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .grow .icon-wrapper i {
   color: #7bb7e6;
 }
-/* line 59, ../scss/index2.scss */
+/* line 60, ../scss/index2.scss */
 body #team-k-index .scrollable-cards-area .card-slide .card-content .down .icon-wrapper i {
   color: #fe5c61;
   -moz-transform: matrix(1, 0, 0, -1, 0, 0);
