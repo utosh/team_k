@@ -1,0 +1,110 @@
+/* line 5, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../vendor/bundle/ruby/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../scss/index2.scss */
+body {
+  font-family: 'Hiragino Maru Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+/* line 7, ../scss/index2.scss */
+body #team-k-index .simple-card {
+  background-color: #ff5d61;
+  height: 250px;
+  position: relative;
+  margin: 0px;
+  padding: 10px;
+}
+/* line 8, ../scss/index2.scss */
+body #team-k-index .simple-card i.airplane {
+  position: absolute;
+  right: 50px;
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  top: 120px;
+  color: #333;
+}
+/* line 9, ../scss/index2.scss */
+body #team-k-index .simple-card i.airplane:before {
+  font-size: 80px;
+}
+/* line 11, ../scss/index2.scss */
+body #team-k-index .simple-card .air-logo {
+  font-size: 60px;
+  color: white;
+  margin-top: 40px;
+  font-weight: bold;
+}
+/* line 13, ../scss/index2.scss */
+body #team-k-index .simple-card .air-logo i.rocket:before {
+  font-size: 60px;
+}
+/* line 16, ../scss/index2.scss */
+body #team-k-index .simple-card .lead {
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}

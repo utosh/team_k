@@ -1,0 +1,19 @@
+@import 'compass';
+@import 'compass/reset';
+@import '_mixin';
+
+body {font-family: 'Hiragino Maru Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+  #team-k-index {
+    .simple-card {background-color: #ff5d61;height:250px;position:relative;margin:0px;padding:10px;
+      i.airplane {position:absolute;right:50px;@include transform(rotate(-40deg));top:120px;color:#333;
+        &:before {font-size:80px;}
+      }
+      .air-logo {font-size:60px;color:white;margin-top:40px;font-weight:bold;
+        i.rocket {
+          &:before {font-size:60px;}
+        }
+      }
+      .lead {margin-left:20px;font-size:20px;color:white;margin-top:10px;}
+    }
+  }
+}
