@@ -1,9 +1,13 @@
 @import 'compass';
 @import 'compass/reset';
+@import "compass/utilities/general/clearfix";
 @import '_mixin';
 
-body {font-family: 'Hiragino Maru Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+.clearfix {@include clearfix;}
+
+body {font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;color:#333;
   #team-k-index {
+    ._card-slide {background-color: #ff5d61;height:225px;position:relative;margin:0px;background-size:contain;}
     .simple-card {background-color: #ff5d61;height:250px;position:relative;margin:0px;padding:10px;
       i.airplane {position:absolute;right:50px;@include transform(rotate(-40deg));top:120px;color:#333;
         &:before {font-size:80px;}
@@ -14,6 +18,41 @@ body {font-family: 'Hiragino Maru Gothic Pro',Meiryo,'MS PGothic',sans-serif;
         }
       }
       .lead {margin-left:20px;font-size:20px;color:white;margin-top:10px;}
+    }
+    .stock-area {background-color:#363636;
+      img {width:320px;}
+    }
+    .scrollable-cards-area {background-color:#ddd;padding:5px;
+      .content-card {height:200px;background-color:white;@include border-radius(6px);margin-top:20px;
+        .card-header {padding:15px;height:60px;@include box-sizing(border-box);
+          .year, .event-desc {vertical-align:middle;}
+          .year {@include poiret-one;font-weight:bold;font-size:48px;float:left;width:100px;}
+          .event-desc {font-size: 28px; color: #30B8B9; margin-left: 110px;margin-top:8px;}
+
+        }
+        .card-content {margin-top:10px;
+          .grow-down {
+            .icon-wrapper {width:50px;height:40px; vertical-align: middle;float:left;
+              i {
+                &:before {font-size:40px;}
+              }
+            }
+            .company {height:40px; vertical-align: middle;font-size:28px;color:#666;float:left;margin-left:60px;}
+            .price {display:inline-block;font-size:28px;vertical-align:middle;}
+          }
+          .column {height:40px;margin-top:15px;}
+          .grow {
+            .icon-wrapper {
+              i {color:#7bb7e6;}
+            }
+          }
+          .down {
+            .icon-wrapper {
+              i {color:#fe5c61;@include transform(matrix(1, 0, 0, -1, 0, 0));position:absolute;}
+            }
+          }
+        }
+      }
     }
   }
 }

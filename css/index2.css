@@ -63,11 +63,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 5, ../scss/index2.scss */
-body {
-  font-family: 'Hiragino Maru Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+/* line 6, ../scss/_mixin.scss */
+.quicksand {
+  font-family: 'Quicksand', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
 }
-/* line 7, ../scss/index2.scss */
+
+/* line 7, ../scss/_mixin.scss */
+.poiret-one {
+  font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+
+/* line 8, ../scss/_mixin.scss */
+.aldrich {
+  font-family: 'Aldrich', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+}
+
+/* line 6, ../scss/index2.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 8, ../scss/index2.scss */
+body {
+  font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+  color: #333;
+}
+/* line 10, ../scss/index2.scss */
+body #team-k-index ._card-slide {
+  background-color: #ff5d61;
+  height: 225px;
+  position: relative;
+  margin: 0px;
+  background-size: contain;
+}
+/* line 11, ../scss/index2.scss */
 body #team-k-index .simple-card {
   background-color: #ff5d61;
   height: 250px;
@@ -75,7 +105,7 @@ body #team-k-index .simple-card {
   margin: 0px;
   padding: 10px;
 }
-/* line 8, ../scss/index2.scss */
+/* line 12, ../scss/index2.scss */
 body #team-k-index .simple-card i.airplane {
   position: absolute;
   right: 50px;
@@ -86,25 +116,122 @@ body #team-k-index .simple-card i.airplane {
   top: 120px;
   color: #333;
 }
-/* line 9, ../scss/index2.scss */
+/* line 13, ../scss/index2.scss */
 body #team-k-index .simple-card i.airplane:before {
   font-size: 80px;
 }
-/* line 11, ../scss/index2.scss */
+/* line 15, ../scss/index2.scss */
 body #team-k-index .simple-card .air-logo {
   font-size: 60px;
   color: white;
   margin-top: 40px;
   font-weight: bold;
 }
-/* line 13, ../scss/index2.scss */
+/* line 17, ../scss/index2.scss */
 body #team-k-index .simple-card .air-logo i.rocket:before {
   font-size: 60px;
 }
-/* line 16, ../scss/index2.scss */
+/* line 20, ../scss/index2.scss */
 body #team-k-index .simple-card .lead {
   margin-left: 20px;
   font-size: 20px;
   color: white;
   margin-top: 10px;
+}
+/* line 22, ../scss/index2.scss */
+body #team-k-index .stock-area {
+  background-color: #363636;
+}
+/* line 23, ../scss/index2.scss */
+body #team-k-index .stock-area img {
+  width: 320px;
+}
+/* line 25, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area {
+  background-color: #ddd;
+  padding: 5px;
+}
+/* line 26, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card {
+  height: 200px;
+  background-color: white;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+/* line 27, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-header {
+  padding: 15px;
+  height: 60px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 28, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-header .year, body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
+  vertical-align: middle;
+}
+/* line 29, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-header .year {
+  font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  float: left;
+  width: 100px;
+}
+/* line 30, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
+  font-size: 28px;
+  color: #30B8B9;
+  margin-left: 110px;
+  margin-top: 8px;
+}
+/* line 33, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content {
+  margin-top: 10px;
+}
+/* line 35, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper {
+  width: 50px;
+  height: 40px;
+  vertical-align: middle;
+  float: left;
+}
+/* line 37, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper i:before {
+  font-size: 40px;
+}
+/* line 40, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .company {
+  height: 40px;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #666;
+  float: left;
+  margin-left: 60px;
+}
+/* line 41, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .price {
+  display: inline-block;
+  font-size: 28px;
+  vertical-align: middle;
+}
+/* line 43, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .column {
+  height: 40px;
+  margin-top: 15px;
+}
+/* line 46, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .grow .icon-wrapper i {
+  color: #7bb7e6;
+}
+/* line 51, ../scss/index2.scss */
+body #team-k-index .scrollable-cards-area .content-card .card-content .down .icon-wrapper i {
+  color: #fe5c61;
+  -moz-transform: matrix(1, 0, 0, -1, 0, 0);
+  -ms-transform: matrix(1, 0, 0, -1, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  position: absolute;
 }

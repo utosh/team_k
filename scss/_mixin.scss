@@ -1,3 +1,8 @@
 
 
 @mixin quicksand {font-family: 'Quicksand', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;}
+@mixin poiret-one {font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;}
+@mixin aldrich {font-family: 'Aldrich', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;}
+.quicksand {@include quicksand;}
+.poiret-one {@include poiret-one;}
+.aldrich {@include aldrich;}
