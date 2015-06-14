@@ -31,7 +31,7 @@ body {font-family: 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;col
       img {width:320px;}
     }
     .scrollable-cards-area {background-color:#ddd;padding:5px;
-      .content-card {height:200px;background-color:white;@include border-radius(6px);margin-top:20px;
+      .card-slide {height:200px;background-color:white;@include border-radius(6px);margin-top:20px;
         .card-header {padding:15px;height:60px;@include box-sizing(border-box);
           .year, .event-desc {vertical-align:middle;}
           .year {@include poiret-one;font-weight:bold;font-size:48px;float:left;width:100px;}
