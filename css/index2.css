@@ -191,7 +191,7 @@ body #team-k-index .scrollable-cards-area {
   padding: 5px;
 }
 /* line 34, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card {
+body #team-k-index .scrollable-cards-area .card-slide {
   height: 200px;
   background-color: white;
   -moz-border-radius: 6px;
@@ -200,7 +200,7 @@ body #team-k-index .scrollable-cards-area .content-card {
   margin-top: 20px;
 }
 /* line 35, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-header {
+body #team-k-index .scrollable-cards-area .card-slide .card-header {
   padding: 15px;
   height: 60px;
   -moz-box-sizing: border-box;
@@ -208,11 +208,11 @@ body #team-k-index .scrollable-cards-area .content-card .card-header {
   box-sizing: border-box;
 }
 /* line 36, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-header .year, body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
+body #team-k-index .scrollable-cards-area .card-slide .card-header .year, body #team-k-index .scrollable-cards-area .card-slide .card-header .event-desc {
   vertical-align: middle;
 }
 /* line 37, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-header .year {
+body #team-k-index .scrollable-cards-area .card-slide .card-header .year {
   font-family: 'Poiret One', 'Hiragino Kaku Gothic Pro',Meiryo,'MS PGothic',sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -220,29 +220,29 @@ body #team-k-index .scrollable-cards-area .content-card .card-header .year {
   width: 100px;
 }
 /* line 38, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-header .event-desc {
+body #team-k-index .scrollable-cards-area .card-slide .card-header .event-desc {
   font-size: 28px;
   color: #30B8B9;
   margin-left: 110px;
   margin-top: 8px;
 }
 /* line 41, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content {
+body #team-k-index .scrollable-cards-area .card-slide .card-content {
   margin-top: 10px;
 }
 /* line 43, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .icon-wrapper {
   width: 50px;
   height: 40px;
   vertical-align: middle;
   float: left;
 }
 /* line 45, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .icon-wrapper i:before {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .icon-wrapper i:before {
   font-size: 40px;
 }
 /* line 48, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .company {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .company {
   height: 40px;
   vertical-align: middle;
   font-size: 28px;
@@ -251,22 +251,22 @@ body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down
   margin-left: 20px;
 }
 /* line 49, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .grow-down .price {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .grow-down .price {
   display: inline-block;
   font-size: 28px;
   vertical-align: middle;
 }
 /* line 51, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .column {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .column {
   height: 40px;
   margin-top: 15px;
 }
 /* line 54, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .grow .icon-wrapper i {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .grow .icon-wrapper i {
   color: #7bb7e6;
 }
 /* line 59, ../scss/index2.scss */
-body #team-k-index .scrollable-cards-area .content-card .card-content .down .icon-wrapper i {
+body #team-k-index .scrollable-cards-area .card-slide .card-content .down .icon-wrapper i {
   color: #fe5c61;
   -moz-transform: matrix(1, 0, 0, -1, 0, 0);
   -ms-transform: matrix(1, 0, 0, -1, 0, 0);
