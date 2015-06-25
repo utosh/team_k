@@ -226,18 +226,39 @@ $(function () {
                         var series_point = 0;
                         // set up the updating of the chart each second
                         var series = this.series[0];
+                        var card_pos = $.map($(".card-slide"), function(e) {
+                            return $(e).position().top;
+                        });
+                        var chart_height = $(".stock-area").height() + 60;
 
-                        setInterval(function () {
-
+                        var add_point = function(point) {
                             if (!SERIES[series_point]) {
                                 return false;
                             }
 
-                            $.each(SERIES[series_point], function(idx, data_set) {
+                            $.each(SERIES[point], function(idx, data_set) {
                                 series.addPoint(data_set, true, true);
                             });
-                            series_point += 1;
-                        }, 1000);
+                        };
+
+                        var document_height = $(document).height(),
+                            screen_height = screen.height;
+
+                        $(document).on("scroll", function() {
+                            // while (card_pos[0] <= $(window).scrollTop()) {
+                            while (card_pos[0] - chart_height <= $(window).scrollTop()) {
+                                add_point(series_point);
+                                series_point += 1;
+                                card_pos.shift();
+                            }
+
+                            if (document_height - screen_height - $(window).scrollTop() <= 300) {
+                                setInterval(function () {
+                                    add_point(series_point);
+                                    series_point += 1;
+                                }, 1000);
+                            }
+                        });
                     }
                 }
             },
